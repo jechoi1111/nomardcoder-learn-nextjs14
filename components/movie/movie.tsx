@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import styles from './movie.module.css'
+import styles from './styles.module.css'
 import { useRouter } from 'next/navigation';
 
 export default function Movie({title, id, poster_path}) {

@@ -1,5 +1,5 @@
-import MovieVideos from '../../../../components/movieVideos';
-import MovieInfo, { getMovie } from '../../../../components/movieInfo';
+import MovieVideos from '../../../../components/movieVideos/movieVideos';
+import MovieInfo, { getMovie } from '../../../../components/movieInfo/movieInfo';
 import { Suspense } from 'react';
 
 type MovieDetailParams = {
