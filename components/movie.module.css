@@ -21,6 +21,10 @@
     opacity: 1;
 }
 
+.movie a:hover {
+    text-decoration: underline;
+}
+
 .movie a {
     text-align: center;
     color: #7B7C81;
